@@ -2,7 +2,6 @@ package web.service;
 
 import web.dao.CarDaoImp;
 import web.model.Car;
-
 import java.util.List;
 
 public class CarServiceImp implements CarService {
@@ -10,12 +9,12 @@ public class CarServiceImp implements CarService {
 
 
     @Override
-    public void setCar(Car car) {
-        this.car.setCar(car);
+    public void addCarInList(Car car) {
+        this.car.addCarInList(car);
     }
 
     @Override
-    public List<Car> getCar() {
-        return car.getCar();
+    public List<Car> getCarFromListByCount(int count) {
+        return car.getCarFromListByCount(count);
     }
 }

@@ -36,10 +36,4 @@ public class Car {
         this.carNumber = carNumber;
     }
 
-    @Override
-    public String toString() {
-        return "Марка машины: " + carBrand +
-                ", Модель: " + carModel +
-                ", Номер: " + carNumber;
-    }
 }
